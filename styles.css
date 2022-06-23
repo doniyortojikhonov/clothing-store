@@ -452,3 +452,64 @@ button.white {
   border-top-left-radius: 0;
   font-size: 18px;
 }
+/* footer section styles */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+footer .logo-footer {
+  margin-bottom: 30px;
+}
+footer h4 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+footer p {
+  font-size: 18px;
+  margin: 0 0 8px 0;
+  text-transform: capitalize;
+}
+footer a {
+  text-decoration: none;
+  color: #606063;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  color: #465b52;
+  padding-right: 8px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #041e42;
+}
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+  transition: all 0.4s ease;
+}
+footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+footer .copyright {
+  width: 100%;
+  text-align: center;
+  color: #222;
+}
