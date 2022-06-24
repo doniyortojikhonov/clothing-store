@@ -522,6 +522,102 @@ footer .copyright {
 }
 /* end of main page */
 
+/* *****--------************ */
+
+/* shop page section styles */
+
+/* header section */
+#page-header {
+  background-image: url(images/banner/b1.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 14px;
+}
+#page-header h2,
+#page-header p {
+  color: #fff;
+  text-transform: capitalize;
+}
+/* pagination buttons */
+#pagination {
+  text-align: center;
+}
+#pagination a {
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Single product page syles */
+
+/* products details */
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+}
+#prodetails .single-pro-image {
+  width: 40%;
+  margin-right: 50px;
+}
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+#prodetails .single-pro-details {
+  width: 50%;
+  padding-top: 30px;
+}
+#prodetails .single-pro-details h4 {
+  font-size: 22px;
+  padding: 40px 0 20px 0;
+  text-transform: capitalize;
+}
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+  text-transform: capitalize;
+}
+#prodetails .single-pro-details h6 {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+#prodetails .single-pro-details select {
+  text-transform: capitalize;
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+#prodetails .single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  outline: none;
+}
+#prodetails .single-pro-details button {
+  background-color: #088178;
+  color: #fff;
+}
+#prodetails .single-pro-details span {
+  text-transform: capitalize;
+  line-height: 25px;
+  color: #606063;
+  font-size: 17px;
+}
+
 /* main page responsiveness */
 @media screen and (max-width: 1000px) {
   .section-p1 {
@@ -715,61 +811,17 @@ footer .copyright {
     text-align: start;
   }
 
-/* products details */
-#prodetails {
-  display: flex;
-  margin-top: 20px;
-}
-#prodetails .single-pro-image {
-  width: 40%;
-  margin-right: 50px;
-}
-.small-img-group {
-  display: flex;
-  justify-content: space-between;
-}
-.small-img-col {
-  flex-basis: 24%;
-  cursor: pointer;
-}
-#prodetails .single-pro-details {
-  width: 50%;
-  padding-top: 30px;
-}
-#prodetails .single-pro-details h4 {
-  font-size: 22px;
-  padding: 40px 0 20px 0;
-  text-transform: capitalize;
-}
-#prodetails .single-pro-details h2 {
-  font-size: 26px;
-  text-transform: capitalize;
-}
-#prodetails .single-pro-details h6 {
-  text-transform: capitalize;
-  font-size: 18px;
-}
-#prodetails .single-pro-details select {
-  text-transform: capitalize;
-  display: block;
-  padding: 5px 10px;
-  margin-bottom: 10px;
-}
-#prodetails .single-pro-details input {
-  width: 50px;
-  height: 47px;
-  padding-left: 10px;
-  font-size: 16px;
-  margin-right: 10px;
-  outline: none;
-}
-#prodetails .single-pro-details button {
-  background-color: #088178;
-  color: #fff;
-}
-#prodetails .single-pro-details span {
-  text-transform: capitalize;
-  line-height: 25px;
-  color: #606063;
-  font-size: 17px;
+  /* single product */
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+  }
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0;
+  }
+  #prodetails .single-pro-details {
+    width: 100%;
+    padding-top: 30px;
+  }
 }
