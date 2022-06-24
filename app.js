@@ -15,3 +15,20 @@ close.addEventListener("click", function () {
     nav.classList.remove("active");
   }
 });
+
+// Single Product item slider
+let mainImg = document.getElementById("mainImg");
+let smallImg = document.querySelectorAll(".small-img");
+
+smallImg.forEach(function (item) {
+  item.addEventListener("click", function () {
+    mainImg.src = item.src;
+  });
+});
+
+const allProducts = document.querySelectorAll("#product1 .pro-container .pro");
+allProducts.forEach(function (product) {
+  product.addEventListener("click", function () {
+    window.location.href = "sproduct.html";
+  });
+});
