@@ -714,43 +714,6 @@ footer .copyright {
   footer .copyright {
     text-align: start;
   }
-}
-/* *****--------************ */
-
-/* shop page section styles */
-
-/* header section */
-#page-header {
-  background-image: url(images/banner/b1.jpg);
-  width: 100%;
-  height: 40vh;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 14px;
-}
-#page-header h2,
-#page-header p {
-  color: #fff;
-  text-transform: capitalize;
-}
-/* pagination buttons */
-#pagination {
-  text-align: center;
-}
-#pagination a {
-  text-decoration: none;
-  background-color: #088178;
-  padding: 15px 20px;
-  border-radius: 4px;
-  color: #fff;
-  font-weight: 600;
-}
-
-/* Single product page syles */
 
 /* products details */
 #prodetails {
